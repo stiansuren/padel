@@ -14,6 +14,10 @@ body {
 
 .pablo {
   width: 90%;
+  animation-duration: 2s;
+  animation-name: floated;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 h1 {
@@ -74,6 +78,10 @@ h1 {
 }
 .star {
   max-width: 100px;
+  animation-duration: 2s;
+  animation-name: spin;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
 }
 
 .place {
@@ -88,6 +96,10 @@ h1 {
 .padele {
   max-width: 90%;
   padding: 40px 0;
+  animation-duration: 2s;
+  animation-name: floated;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 .mer-info {
@@ -110,6 +122,13 @@ h2 {
   color: lightgreen;
 }
 
+.fest h1 {
+  animation-duration: 0.5s;
+  animation-name: floated;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
 p {
   font-family: "Bungee", serif;
   font-size: 24px;
@@ -118,6 +137,23 @@ p {
 
 .fest {
   margin-bottom: 140px;
+}
+
+@keyframes floated {
+  from {
+    transform: scale(0.95);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
+@keyframes spin {
+  from {
+    transform: rotateZ(0);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
 }
 
 @media (min-width: 950px) {
