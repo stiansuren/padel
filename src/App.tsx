@@ -7,11 +7,19 @@ export default function App() {
       <header className="title-wrapper">
         <h1>Er du den nye</h1>
       </header>
-      <img className="pablo" src="/pablo.png" alt="Padlo Escobar" />
+      <img
+        className="pablo"
+        src="https://uploads.codesandbox.io/uploads/user/69a66bff-8c46-445b-a07c-1d7a63062613/dg3N-pablo.png"
+        alt="Padlo Escobar"
+      />
       <section className="info">
         <h2>Uoffisielt NM i padeltennis for undergrunns-spillere</h2>
         <div className="rolex-wrapper">
-          <img className="rolex" src="/rolex.png" alt="Rolex" />
+          <img
+            className="rolex"
+            src="https://uploads.codesandbox.io/uploads/user/69a66bff-8c46-445b-a07c-1d7a63062613/hjKb-rolex.png"
+            alt="Rolex"
+          />
         </div>
         <div className="time">
           <p>Lørdag 24.10.20</p>
@@ -22,13 +30,22 @@ export default function App() {
           <p>Økern</p>
         </div>
         <div className="star-wrapper">
-          <img className="star" src="/star.png" alt="Star" />
+          <img
+            className="star"
+            src="
+https://uploads.codesandbox.io/uploads/user/69a66bff-8c46-445b-a07c-1d7a63062613/uacb-star+copy.png"
+            alt="Star"
+          />
         </div>
       </section>
       <section>
         <h2>Pauseunderholdning</h2>
         <h1>PADELE</h1>
-        <img className="padele" src="/padele.png" alt="Padele" />
+        <img
+          className="padele"
+          src="https://uploads.codesandbox.io/uploads/user/69a66bff-8c46-445b-a07c-1d7a63062613/BaU5-padele.png"
+          alt="Padele"
+        />
       </section>
       <section className="mer-info">
         <h2>Mer informasjon</h2>
