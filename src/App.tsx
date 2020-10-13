@@ -37,18 +37,16 @@ export default function App() {
           <br />
         </p>
         <p>Ta med innesko, treningstøy, drikke og snacks til deg selv.</p>
-        <p>
-          <br />
-        </p>
       </section>
       <section>
         <h2>How to play</h2>
         <iframe
+          title="Padel Rules"
           className="video"
           src="https://www.youtube.com/embed/RkdQ61VKKtI"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </section>
       <section className="fest">
